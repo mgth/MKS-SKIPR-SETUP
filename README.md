@@ -129,7 +129,7 @@ make
 ```console
 scp nexgen3d@192.68.0.123:~/klipper/out/klipper.bin C:\klipper\klipper.bin
 ```
-**If that worked, then you will have the firmware file on your PC in the folder you created called `klipper.bim` now rename it to: `mks_skipr.bin`**
+**If that worked, then you will have the firmware file on your PC in the folder you created called `klipper.bin` now rename it to: `mks_skipr.bin`**
 * Copy `mks_skipr.bin` to an SD-Card that has been formatted in `FAT32` then shut down your MKS-SKIPR board and insert the SD-Card into the `MCU SD-Card slot`, there is two on the board, make sure its the correct one or you may tear a hole in the space time continuum and create some sort of spacial anomoly that will cause a reverse deflagrating implosion.....no not really :)
 
 **Power the board up, wait a minute or two, then powerdown and pull the SD-Card, you have now successfully flashed your MKS-SKIPR board with Klipper.**
